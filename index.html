@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <title>JS.OBJECTS</title>
+    <meta charset='utf-8'/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='java.js'></script>
+</head>
+    
+<body>
+	<header>
+		<h1>JS.OBJECTS</h1>
+	</header>
+	
+    <div class="wrapper">
+        <h2>Add A Song</h2>
+        <form id="addSong">
+            <p>Song Title:</p>
+            <input type="text" id="songTitle" placeholder="Song Title"><br>
+            <p>Artist:</p>
+            <input type="text" id="songArtist" placeholder="Artist Name"><br>
+            <p>Realease Year:</p>
+            <input type="text" id="releaseYear" placeholder="Release Year"><br><br>
+            <input type="button" id="submitSong" value="Add song to list">
+        </form>
+   	   </div>
+
+    <div class="wrapper">
+        <div id="songList">
+            <table>
+                <tr>
+                    <th>Song Title</th>
+                    <th>Artist</th>
+                    <th>Release Year</th>   
+                </tr>
+                <tr>
+                    <td id="title"></td>
+                    <td id="artist"></td>
+                    <td id="year"></td> 
+                </tr>
+            </table>
+        </div>     
+    </div>
+
+    <div class="wrapper">
+    <div id="planets">
+    <h2>Choose A Planet</h2>
+            <form id="choose">
+                <input type="radio" id="sun" name="planet" value="Sun"> Sun
+                <input type="radio" id="mercury" name="planet" value="Mercury"> Mercury
+                <input type="radio" id="venus" name="planet" value="Venus"> Venus
+                <input type="radio" id="earth" name="planet" value="Earth"> Earth
+                <input type="radio" id="mars" name="planet" value="Mars"> Mars
+                <input type="radio" id="jupiter" name="planet" value="Jupiter"> Jupiter
+                <input type="radio" id="saturn" name="planet" value="Saturn"> Saturn
+                <input type="radio" id="uranus" name="planet" value="Uranus"> Uranus
+                <input type="radio" id="neptune" name="planet" value="Neptune"> Neptune
+                <input type="radio" id="pluto" name="planet" value="Pluto"> Pluto
+            </form>
+        </div>
+    <h2>Planet Information</h2>
+        <div id="planetInformation">
+        </div>
+    </div>
+
+    <div class="wrapper">
+    <h2>Credit Card Number Validation</h2>
+            <form id="cardInformation">
+                <p>Name:</p>
+                <input type="text" id="name" placeholder="Name"><br>
+                <p>Card Number:</p>
+                <input type="text" id="number" placeholder="Credit Card Number"><br>
+                <p>Expiration Date:</p>
+                <input type="text" id="expDate" placeholder="Expiration Date"><br>
+                 <p>CVV:</p>
+                <input type="text" id="ccv" placeholder="CCV"><br><br>
+                <input id="check" type="button" value="Check">
+            </form>
+    </div>
+
+<footer>
+</footer>
+
+</body>
+    
+</html>
